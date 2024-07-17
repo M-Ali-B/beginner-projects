@@ -47,7 +47,7 @@ def binary_search(l, target, low=None, high=None):
     if high is None:
         high = len(l) - 1
 
-    if high < low:
+    if high == low:
         return -1
 
     # example l = [1, 3, 5, 10, 12]  # should return 3
